@@ -1,0 +1,6 @@
+{
+  "name": "Wonderhaus Toy Atelier",
+  "description": "Curated heirloom wooden toys, interactive STEAM kits, and handcrafted play wonders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
