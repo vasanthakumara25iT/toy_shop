@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Sparkles, ShieldCheck, TreePine, Award } from 'lucide-react';
 import { sound } from '../utils/audio';
+import heroToyAtelier from '../assets/images/hero_toy_atelier_1791180746147.jpg';
 
 interface HeroSectionProps {
   onExploreCatalog: () => void;
@@ -88,7 +89,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-lg border border-stone-200/70 bg-stone-100 aspect-4/3 sm:aspect-16/11">
               <img
-                src="/src/assets/images/hero_toy_atelier_1791180746147.jpg"
+                src={heroToyAtelier}
                 alt="Sunlit Wonderhaus toy artisan atelier workshop with wooden trains and brass telescopes"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"

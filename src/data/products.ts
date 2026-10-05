@@ -1,4 +1,9 @@
 import { ToyProduct } from '../types';
+import heroToyAtelier from '../assets/images/hero_toy_atelier_1791180746147.jpg';
+import toyWoodenTrain from '../assets/images/toy_wooden_train_1791180760328.jpg';
+import toyMusicBox from '../assets/images/toy_music_box_1791180771187.jpg';
+import toyPlushBear from '../assets/images/toy_plush_bear_1791180781581.jpg';
+import toySolarRover from '../assets/images/toy_solar_rover_1791180792790.jpg';
 
 export const TOY_PRODUCTS: ToyProduct[] = [
   {
@@ -13,7 +18,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     originalPrice: 78.0,
     rating: 4.9,
     reviewsCount: 38,
-    image: '/src/assets/images/toy_wooden_train_1791180760328.jpg',
+    image: toyWoodenTrain,
     materials: 'FSC-Certified Alpine Beechwood, Solid Brass Axles, Neodymium Safety Magnets',
     dimensions: '38 cm × 6.5 cm × 8.2 cm',
     pieceCount: 5,
@@ -62,7 +67,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     price: 84.0,
     rating: 4.95,
     reviewsCount: 42,
-    image: '/src/assets/images/toy_music_box_1791180771187.jpg',
+    image: toyMusicBox,
     materials: 'Baltic Birch, Tempered Steel Comb, Cast Brass Pinion & Gears',
     dimensions: '14 cm × 11 cm × 9 cm',
     pieceCount: 1,
@@ -102,7 +107,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     price: 54.0,
     rating: 4.88,
     reviewsCount: 56,
-    image: '/src/assets/images/toy_plush_bear_1791180781581.jpg',
+    image: toyPlushBear,
     materials: '100% GOTS Organic Cotton Sherpa, Recycled Wool Fill, Hand-Embroidered Features',
     dimensions: '32 cm Height',
     pieceCount: 1,
@@ -142,7 +147,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     price: 62.0,
     rating: 4.92,
     reviewsCount: 31,
-    image: '/src/assets/images/toy_solar_rover_1791180792790.jpg',
+    image: toySolarRover,
     materials: 'Laser-Cut Aircraft Birch Ply, Brass Bushings, High-Efficiency Photovoltaic Panel',
     dimensions: '22 cm × 14 cm × 11 cm',
     pieceCount: 64,
@@ -183,7 +188,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     originalPrice: 88.0,
     rating: 4.94,
     reviewsCount: 29,
-    image: '/src/assets/images/hero_toy_atelier_1791180746147.jpg',
+    image: heroToyAtelier,
     materials: 'Solid Hard Maple, Smoked Walnut Accents, Solid Beech Wooden Tray',
     dimensions: '32 cm × 32 cm × 5 cm Tray',
     pieceCount: 54,
@@ -223,7 +228,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     price: 46.0,
     rating: 4.86,
     reviewsCount: 19,
-    image: '/src/assets/images/toy_music_box_1791180771187.jpg',
+    image: toyMusicBox,
     materials: 'Sycamore Wood, Natural Mineral Pigments, Powder-Coated Steel Display Easel',
     dimensions: '24 cm × 24 cm Frame',
     pieceCount: 36,
@@ -264,7 +269,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     originalPrice: 98.0,
     rating: 4.97,
     reviewsCount: 24,
-    image: '/src/assets/images/toy_solar_rover_1791180792790.jpg',
+    image: toySolarRover,
     materials: 'Aged Brass Vernier, European Ashwood Handle, Convex Glass Lenses',
     dimensions: '20 cm × 18 cm × 6 cm',
     pieceCount: 3,
@@ -304,7 +309,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
     price: 58.0,
     rating: 4.91,
     reviewsCount: 33,
-    image: '/src/assets/images/toy_wooden_train_1791180760328.jpg',
+    image: toyWoodenTrain,
     materials: 'Air-Dried Mountain Maple, Felt Mallets, Natural Beeswax Finish',
     dimensions: '28 cm × 16 cm × 7 cm',
     pieceCount: 3,
