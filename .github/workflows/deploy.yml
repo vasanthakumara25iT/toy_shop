@@ -39,7 +39,9 @@ jobs:
 
       - name: Build project with Vite
         run: npm run build
-
+        env:
+          BASE_URL: /toy_shop/
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
